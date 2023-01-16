@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #1f1d1d;
 		overflow: hidden;
 	}
 
@@ -554,7 +554,7 @@ input, select, textarea {
 
 		#header h1 {
 			font-size: 4.35em;
-			font-weight: 900;
+			font-weight: 500;
 			letter-spacing: -0.035em;
 			line-height: 1em;
 		}
@@ -674,7 +674,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px #bbbbbb;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -691,7 +691,8 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: #f29f06;
+						border: solid 1px #f29f06;
 					}
 
 				#header nav a:active {
